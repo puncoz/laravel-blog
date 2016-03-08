@@ -68,7 +68,7 @@
 				</div>
 			@endif
 
-			@if(isset($errors) && $errors->any())
+			@if($errors->any())
 				<div class="flash alert-danger">
 					<ul class="panel-body">
 						@foreach($errors->all() as $error)
